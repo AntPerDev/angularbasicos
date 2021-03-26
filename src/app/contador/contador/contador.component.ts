@@ -13,7 +13,7 @@ import  { Component } from '@angular/core';
     <!-- <button (click)="restar()">-1</button> -->
     <button (click)="acumular(-base)"> -{{base}} </button>
   `,
-    styleUrls: ['../app.component.css']
+    styleUrls: []
 
 })
 export class ContadorComponent {

@@ -5,8 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './listado.component.html',
 })
 export class ListadoComponent implements OnInit {
-  
-  
+    
   heroes: string[] = ['Spiderman','Ironman', 'Hulk', 'Thor', 'Capitan América'];
   heroeBorrado: string = '';
   
